@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pdpui/pages/home_page.dart';
+import 'package:pdpui/pages/homework.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: WorkPage(),
     );
   }
 }
